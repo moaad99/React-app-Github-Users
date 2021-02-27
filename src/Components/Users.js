@@ -51,10 +51,10 @@ export default class Users extends Component {
                     <div className="col-md-3" key={index}>
                         <div className="card">
                             <img className="card-img-top" src={user.avatar_url} alt=""/>
-                            <div className="card-body">
-                                <h4 className="card-title">{user.login}</h4>
-                                <p className="card-text">
-                               <a href={user.html_url} className="btn btn-secondary" style={{color:"white"}} >Show more</a>
+                            <div className="card_body">
+                                <h4 className="card-title" style={{color:"black",marginInline:"27px"}} >{user.login}</h4>
+                                <p className="card-text"  >
+                               <a href={user.html_url} className="btn btn-secondary" style={{marginInline:"57px",color:"white"}} >Show more </a>
                                    
                                 </p>
                             </div>

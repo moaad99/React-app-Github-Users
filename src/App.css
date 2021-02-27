@@ -1,3 +1,10 @@
 
 
 @import 'bootstrap/dist/css/bootstrap.css';
+
+body {
+    background: #000 url('https://ih1.redbubble.net/image.359631948.6977/flat,750x1000,075,f.u2.jpg')  center center/cover;
+    height: 100vh;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
